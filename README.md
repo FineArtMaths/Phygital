@@ -14,6 +14,7 @@ The steps for an initial setup are:
 * Wire up the HC-SR04 to the Arduino as per this tutorial: https://create.arduino.cc/projecthub/abdularbi17/ultrasonic-sensor-hc-sr04-with-arduino-tutorial-327ff6
 * Connect the Arduino to the computer
 * Use the Arduino IDE to upload SR04_Sensor.ino to the Arduino
+* Place the sensor so it's pointing into an empty space with no obstructions or objects around it (e.g. not pointing out of an open box). 
 * Test this using the serial monitor, which should give the distance reading from the sensor (try moving your hand in front of it)
 * Close the Arduino IDE
 * Open ArduinoSerial.pde in Processing
