@@ -1,5 +1,10 @@
 /*
-  :Based on an example by Dragos Calin
+Based on an example by Dragos Calin
+
+Outstanding issues:
+    * It doesn't always start in a good state (seems to need some hand-waving in front of it to get it "set")
+    * Sensor often produces a zero reading and can get "locked" into this state for extended periods
+    * Needs testing to see how large an object must be for longer-range detection (currently detecting a person at about 100cm).
 */
  
  
